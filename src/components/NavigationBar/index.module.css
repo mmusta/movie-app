@@ -1,0 +1,9 @@
+.NavigationBar{
+    background-color: rgb(18,18,18);
+    color:rgb(255,255,254);
+    position: sticky;
+    top:0px ;left:0px;right:0px ;
+    block-size: 50px;
+    box-sizing: border-box;
+    margin: 0px;
+}
