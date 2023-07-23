@@ -1,9 +1,36 @@
 .NavigationBar{
     background-color: rgb(18,18,18);
     color:rgb(255,255,254);
-    position: sticky;
+    position: flex;
     top:0px ;left:0px;right:0px ;
-    block-size: 50px;
+    block-size: 55px;
     box-sizing: border-box;
+    margin: 0px;
+}
+.NavigationBarImage{
+    display : inline-block;
+    block-size: 32px;
+    position: sticky;
+    top:12px; left: 325px;
+}
+.NavigationBarButton{
+    block-size: 22px;
+    position: sticky;
+    top: 16px;left: 412px;
+    color: aliceblue;
+    background-color: rgb(18,18,18);
+    border: 1rem;
+}
+.NavigationBarSearchBox{
+    position: sticky;
+    top: 3px; left: 500px;right: 500px;
+    width: 720px;
+    border-radius: 6px;
+    height: 35px;
+}
+.NavigationBarForm{
+    display: flex;
+    box-sizing: content-box;
+    width: 720px;
     margin: 0px;
 }
