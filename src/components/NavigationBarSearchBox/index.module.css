@@ -1,0 +1,14 @@
+.NavigationBarSearchBox{
+    width: 720px;
+    border-radius: 6px;
+    height: 35px;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    gap: 24px
+}
+.NavigationBarSearchBoxInput{
+    width: 720px;
+    border-radius: 6px;
+    height: 35px;  
+}
